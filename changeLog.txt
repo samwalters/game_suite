@@ -1,0 +1,43 @@
+-----------------------------------------------------------------------------------
+
+This is the change log for the game_suite. It is used to track progress 
+and make notes about current dev status. It mostly serves as a reminder to myself,
+where i have left off, and what i plan on working on next. 
+
+------------------------------------------------------------------------------------
+
+
+
+9/2/14
+-
+
+
+1/4/15
+-not exectuing correctly. seg fault in the draw function. im thinking it has
+something to do with memory/scope and pointer logic. next focus should be
+making sure the deck will print all shuffled. See "printDeck()" 
+
+
+9/8/16
+-diving back into things in my spare time. note that multivariable declartions
+dont seem to work on windows. maybe this has something to do with gcc on
+windows. 
+
+	ex int i,j,k = 0; //declares variables but does not set them to 0
+
+9/9/16
+-some segfaults due to improper looping were take care of. 
+
+10/7/16
+-Check syntax of switch statement, implement global loop
+
+10/21/16
+-Figure out way to clear and write from top using ANSI escape codes
+-in function playCard, having pointer issues, code does not compile
+
+11/1/16
+-should compile okay. need "add card to hand" functionality in war.cpp
+
+11/29/16
+-compiles. Need to add stats and graphics to war. also still only going through
+the deck once. Cards should move to players hands after wins/loss
