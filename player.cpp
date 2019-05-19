@@ -101,14 +101,15 @@ void Player::showHand()	{
 *  PARAMS  -    
 *  RETURNS  -   pointer to a card struct, NULL if handSize == 0
 *
+*   -possible that its necessary to check to make sure not NULL
+*   -possible mem leak,
 ******************************************************************************/
 struct card* Player::playCard()  {
 
-    struct card* tempCard = new struct card;
-    tempCard = hand.front();    //draw first card
+    struct card* temp = hand.front();    //draw first card
     hand.erase(hand.begin());   //erase first card
 
-    return tempCard;
+    return temp;
 }
 /******************************************************************************
 *FUNCTION DESCRIPTION:returns name

@@ -54,6 +54,12 @@ int playWar()
 	//main game
 	while(Player1.handSize() != 0 && Player2.handSize() != 0 && status)
 	{
+   //     struct card* cardP1 = new struct card; 
+    //    struct card* cardP2 = new struct card;
+
+     //  Player1.playCard(cardP1);
+      // Player2.playCard(cardP2);
+
 		struct card* cardP1 = Player1.playCard();
 		struct card* cardP2 = Player2.playCard();
 		
@@ -135,3 +141,4 @@ int clearStats()
 
  	return 0;
 }
+

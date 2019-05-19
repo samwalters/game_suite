@@ -19,7 +19,7 @@ void printMenu();
 
 char choice;
 int run = 1;	//used for looping until program end
-int err_code;
+int err_code = 0;
 
 using namespace std;
 
@@ -85,3 +85,5 @@ void printMenu()
 	cout << "3) Poker" << endl;
 	cout << endl << "0) Exit Program" << endl;
 }
+
+

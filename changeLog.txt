@@ -41,3 +41,6 @@ windows.
 11/29/16
 -compiles. Need to add stats and graphics to war. also still only going through
 the deck once. Cards should move to players hands after wins/loss
+
+
+
